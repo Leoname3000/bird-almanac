@@ -1,6 +1,10 @@
 {
+  "birds": [
+    {
       "name": "Bird",
       "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Domestic-pigeon.jpg/1024px-Domestic-pigeon.jpg",
       "movement": "walk",
       "description": "A simple description."
+    }
+  ]
 }
