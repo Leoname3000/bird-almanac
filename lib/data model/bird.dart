@@ -8,4 +8,9 @@ class Bird {
     this.description,
     this.imageURL,
   );
+
+  Bird.fromJson(Map<String, dynamic> json)
+      : name = json["name"],
+        description = json["description"],
+        imageURL = json["imageURL"];
 }
